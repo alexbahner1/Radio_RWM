@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/alex/Documents/Radio/pcb/radio/radio.sch</source>
+    <date>Mon 19 Oct 2020 11:57:04 PM EDT</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>radio.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ArdNano</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical</footprint>
+      <libsource lib="radio" part="ArdNano" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8DF1D8</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>Si470x</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="radio" part="Si470x" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8E04BC</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>logicShifter</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical</footprint>
+      <libsource lib="radio" part="logicShifter" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8E0D33</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>51110LCD</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="radio" part="51110LCD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8E7632</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>logicShifter</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical</footprint>
+      <libsource lib="radio" part="logicShifter" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8E7CBB</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>POWERBOOST</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="radio" part="POWERBOOST" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9087A5</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>CLASSDAMP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</footprint>
+      <libsource lib="radio" part="CLASSDAMP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F90991F</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>DG412xUE</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/DG411-DG413.pdf</datasheet>
+      <libsource lib="Analog_Switch" part="DG412xUE" description="Quad SPST Monolithic CMOS Analog Switches, normally OFF, 17Ohm Ron, TSSOP-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9A727D</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H4.3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EFF86</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rnf_rnmf.pdf</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9FDE4F</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H4.3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA1A2D6</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rnf_rnmf.pdf</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA1A2E2</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H4.3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA2E051</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rnf_rnmf.pdf</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA2E05D</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H4.3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA2E06C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rnf_rnmf.pdf</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA2E078</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H4.3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA3F04D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rnf_rnmf.pdf</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA3F059</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rnf_rnmf.pdf</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA3F074</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H4.3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA3F068</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB34448</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_Switch" part="DG412xUE">
+      <aliases>
+        <alias>MAX313CUE</alias>
+      </aliases>
+      <description>Quad SPST Monolithic CMOS Analog Switches, normally OFF, 17Ohm Ron, TSSOP-16</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/DG411-DG413.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DG412xUE</field>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="VL" type="power_in"/>
+        <pin num="13" name="V+" type="power_in"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="radio" part="51110LCD">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">51110LCD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SCE" type="passive"/>
+        <pin num="4" name="RST" type="passive"/>
+        <pin num="5" name="D/C" type="passive"/>
+        <pin num="6" name="DN" type="passive"/>
+        <pin num="7" name="SCLK" type="passive"/>
+        <pin num="8" name="LED" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="radio" part="ArdNano">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ArdNano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D13" type="input"/>
+        <pin num="2" name="3v3" type="power_out"/>
+        <pin num="3" name="REF" type="passive"/>
+        <pin num="4" name="A0" type="passive"/>
+        <pin num="5" name="A1" type="passive"/>
+        <pin num="6" name="A2" type="passive"/>
+        <pin num="7" name="A3" type="passive"/>
+        <pin num="8" name="A4" type="passive"/>
+        <pin num="9" name="A5" type="passive"/>
+        <pin num="10" name="A6" type="passive"/>
+        <pin num="11" name="A7" type="passive"/>
+        <pin num="12" name="5V" type="passive"/>
+        <pin num="13" name="RST" type="passive"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="VIN" type="passive"/>
+        <pin num="16" name="TX1" type="passive"/>
+        <pin num="17" name="RX0" type="passive"/>
+        <pin num="18" name="RST" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="D2" type="passive"/>
+        <pin num="21" name="D3" type="passive"/>
+        <pin num="22" name="D4" type="passive"/>
+        <pin num="23" name="D5" type="passive"/>
+        <pin num="24" name="D6" type="passive"/>
+        <pin num="25" name="D7" type="passive"/>
+        <pin num="26" name="D8" type="passive"/>
+        <pin num="27" name="D9" type="passive"/>
+        <pin num="28" name="D10" type="passive"/>
+        <pin num="29" name="D11" type="passive"/>
+        <pin num="30" name="D12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="radio" part="CLASSDAMP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CLASSDAMP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SDWN" type="passive"/>
+        <pin num="4" name="L+" type="passive"/>
+        <pin num="5" name="L-" type="passive"/>
+        <pin num="6" name="R-" type="passive"/>
+        <pin num="7" name="R+" type="passive"/>
+        <pin num="8" name="G'" type="passive"/>
+        <pin num="9" name="G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="radio" part="POWERBOOST">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">POWERBOOST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="USB" type="passive"/>
+        <pin num="2" name="BAT" type="passive"/>
+        <pin num="3" name="Vs" type="passive"/>
+        <pin num="4" name="EN" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="LBO" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="5V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="radio" part="Si470x">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Si470x</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO2" type="passive"/>
+        <pin num="2" name="GPIO1" type="passive"/>
+        <pin num="3" name="~RST" type="passive"/>
+        <pin num="4" name="~SEN" type="passive"/>
+        <pin num="5" name="SCLK" type="passive"/>
+        <pin num="6" name="SDIO" type="passive"/>
+        <pin num="7" name="VCC" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="ROUT" type="passive"/>
+        <pin num="10" name="LOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="radio" part="logicShifter">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">logicShifter</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LV1" type="passive"/>
+        <pin num="2" name="LV2" type="passive"/>
+        <pin num="3" name="LV" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="LV3" type="passive"/>
+        <pin num="6" name="LV4" type="passive"/>
+        <pin num="7" name="HV4" type="passive"/>
+        <pin num="8" name="HV3" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="HV" type="passive"/>
+        <pin num="11" name="HV2" type="passive"/>
+        <pin num="12" name="HV1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_Switch">
+      <uri>/usr/share/kicad/library/Analog_Switch.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="radio">
+      <uri>/home/alex/Documents/Radio/pcb/radio/radio.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="R5" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="19"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="SW5" pin="2"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="U4" pin="10"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U1" pin="12"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U6" pin="1"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="3" name="/SW3">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(U6-Pad9)">
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="5" name="Net-(U6-Pad8)">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="6" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="7" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="9" name="/SW2">
+      <node ref="U1" pin="6"/>
+      <node ref="R3" pin="1"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="10" name="/SW5">
+      <node ref="U1" pin="11"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="11" name="/LCD_DC">
+      <node ref="U5" pin="11"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="12" name="/LCD_DN">
+      <node ref="U1" pin="29"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="13" name="/LCD_SCLK">
+      <node ref="U1" pin="1"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="14" name="+3V3">
+      <node ref="U7" pin="7"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="15" name="/LCD_SCE">
+      <node ref="U1" pin="28"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="16" name="/LCD_RST">
+      <node ref="U5" pin="8"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="17" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="18" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="19" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="20" name="Net-(U5-Pad2)">
+      <node ref="U8" pin="5"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="21" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="22" name="/SW4">
+      <node ref="U1" pin="10"/>
+      <node ref="R5" pin="1"/>
+      <node ref="SW5" pin="1"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="27" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="30" name="/SW1">
+      <node ref="U1" pin="5"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="31" name="/Vol">
+      <node ref="U1" pin="4"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="33" name="/SW0">
+      <node ref="SW1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="35" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="36" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="37" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="41" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="42" name="Net-(U4-Pad2)">
+      <node ref="U7" pin="5"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="43" name="/Si4_SCLK">
+      <node ref="U4" pin="11"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="44" name="Net-(U4-Pad1)">
+      <node ref="U7" pin="6"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="45" name="Net-(U6-Pad4)">
+      <node ref="U7" pin="10"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="46" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="49" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+      <node ref="U7" pin="9"/>
+    </net>
+    <net code="50" name="/Si4_RST">
+      <node ref="U1" pin="20"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="51" name="/Si4_SDIO">
+      <node ref="U1" pin="8"/>
+      <node ref="U4" pin="12"/>
+    </net>
+  </nets>
+</export>

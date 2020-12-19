@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name 7555timetot)(type KiCad)(uri ${KIPRJMOD}/7555timetot.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri /home/alex/Documents/Radio/pcb/footprints)(options "")(descr ""))
+  (lib (name A000005)(type KiCad)(uri /home/alex/Documents/Radio/pcb/footprints/A000005.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name radio)(type Legacy)(uri ${KIPRJMOD}/radio.lib)(options "")(descr ""))
+)
